@@ -1,0 +1,88 @@
+/* ---------------------header--------------------- */
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    /* div.col-7 {
+        width: 58%;
+    } */
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    div.nav {
+        display: none;
+    }
+    div.logo {
+        margin: 0px auto !important;
+        position: sticky;
+    }
+    header {
+        position: fixed !important;
+        z-index: 2;
+    }
+    div.section {
+        position: relative;
+        top: 70px;
+    }
+}
+
+@media(min-width: 576px) and (max-width: 767px) {
+    div.nav {
+        display: none;
+    }
+    div.logo {
+        margin: 0px auto !important;
+    }
+    header {
+        position: fixed !important;
+        z-index: 2;
+    }
+    div.section {
+        position: relative;
+        top: 70px;
+    }
+}
+
+@media(min-width: 425px) and (max-width: 575px) {
+    div.nav {
+        display: none;
+    }
+    div.logo {
+        margin: 0px auto !important;
+    }
+    header {
+        position: fixed !important;
+        z-index: 2;
+    }
+    div.section {
+        position: relative;
+        top: 70px;
+    }
+}
+
+@media(max-width: 425px) {
+    div.nav {
+        display: none;
+    }
+    div.logo {
+        margin: 0px auto !important;
+    }
+    header {
+        position: fixed !important;
+        z-index: 2;
+    }
+    div.section {
+        position: relative;
+        top: 70px;
+    }
+}
+
+
+/* ----------------------------- section----------------------------------- */
+
+
+/* @media (min-width: 1200px) {
+    div.space {
+        padding: 10px !important;
+    }
+} */

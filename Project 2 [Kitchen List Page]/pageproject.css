@@ -1,0 +1,204 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+div.row {
+    overflow: auto;
+}
+
+
+/* div.main {
+    width: 90%;
+    margin: 10px auto;
+    border: 2px solid black;
+} */
+
+div.container {
+    width: 90%;
+    margin: 10px auto;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+div.box1 {
+    height: 40px;
+    width: 4%;
+    margin: 20px auto;
+    /* border: 1px solid red; */
+    background-color: grey;
+}
+
+div.blank1 {
+    width: 75%;
+    height: 8px;
+    margin: 50px auto;
+    background-color: black;
+}
+
+p.kitchen {
+    text-align: center;
+    font-size: 20px;
+}
+
+div.blank2 {
+    width: 90%;
+    height: 35px;
+    margin: 20px auto;
+    background-color: gray;
+}
+
+div.info {
+    width: 90%;
+    margin: 10px auto;
+    /* border: 2px solid black; */
+    height: 200px;
+}
+
+div.prepare {
+    height: 100%;
+    width: 32%;
+    /* border: 1px solid red; */
+    float: left;
+}
+
+img.prepare {
+    width: 30%;
+    height: 30%;
+    margin: 20px 100px;
+    margin-bottom: 5px;
+}
+
+div.cook {
+    height: 100%;
+    width: 32%;
+    /* border: 1px solid red; */
+    margin-left: 29px;
+    margin-right: 28px;
+    float: left;
+}
+
+img.cook {
+    width: 30%;
+    height: 30%;
+    margin: 20px 100px;
+    margin-bottom: 5px;
+}
+
+div.serving {
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid red; */
+    float: right;
+}
+
+img.serving {
+    width: 30%;
+    height: 30%;
+    margin: 20px 100px;
+    margin-bottom: 5px;
+}
+
+p.info {
+    text-align: center;
+    font-size: 20px;
+}
+
+hr {
+    background-color: black;
+    width: 100%;
+    margin: 50px auto;
+    height: 3px;
+}
+
+p.para1 {
+    /* text-align: center; */
+    font-size: 23px;
+    display: inline;
+    padding-left: 10px;
+    /* width: 50%; */
+    /* float: left; */
+}
+
+p.para2 {
+    /* text-align: left; */
+    font-size: 23px;
+    padding-left: 300px;
+    display: inline;
+    /* float: left; */
+    /* width: 50%; */
+}
+
+div.table {
+    width: 90%;
+    /* border: 2px solid black;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px; */
+    margin: 10px auto;
+}
+
+div.table1 {
+    width: 40%;
+    border: 3px solid black;
+    float: left;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+}
+
+table.table1 {
+    width: 95%;
+    /* border: 2px solid red; */
+    border-collapse: collapse;
+    margin-top: 10px;
+    /* float: left; */
+}
+
+td.td1 {
+    border: 2px solid black;
+    /* width: 0%; */
+    height: 40px;
+    border-collapse: collapse;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    padding-right: 10px;
+}
+
+div.table2 {
+    width: 60%;
+    border: 3px solid black;
+    float: left;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+}
+
+table.table2 {
+    width: 97%;
+    /* border: 2px solid red; */
+    border-collapse: collapse;
+    margin-top: 10px;
+    /* float: left; */
+    margin-left: 15px;
+}
+
+td.td2 {
+    border: 2px solid black;
+    /* width: 0%; */
+    height: 40px;
+    border-collapse: collapse;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    padding-left: 30px;
+}
+
+p.blank2 {
+    font-size: 23px;
+    text-align: center;
+    padding-left: 10px;
+    padding: 4px;
+}

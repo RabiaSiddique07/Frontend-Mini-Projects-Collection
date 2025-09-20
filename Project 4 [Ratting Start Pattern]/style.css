@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    margin: 30px 100px;
+}
+
+.ratting {
+    direction: rtl;
+    margin-bottom: 10px;
+}
+
+.ratting input {
+    display: none;
+}
+
+.ratting label {
+    display: inline-block;
+    width: 50px;
+    position: relative;
+    cursor: pointer;
+}
+
+.ratting label:before {
+    content: '\2606';
+    position: absolute;
+    display: inline-block;
+    font-size: 30px;
+    top: 0;
+    left: 0;
+}
+
+.ratting label:after {
+    content: '\2605';
+    position: absolute;
+    display: inline-block;
+    font-size: 30px;
+    top: 0;
+    left: 0;
+    color: #deb217;
+    opacity: 0;
+}
+
+.ratting label:hover:after,
+.ratting label:hover~label:after,
+.ratting input:checked~label:after {
+    opacity: 1;
+}
